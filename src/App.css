@@ -1,0 +1,89 @@
+.all{
+    background-color: rgb(1, 151, 101);
+    padding: 3vh 2%;
+}
+.App{
+    background-color: rgb(223, 222, 222);
+}
+.left{
+    height: 100%;
+    overflow: hidden;
+}
+header, .right footer{
+    width: 100%;
+    height: 60px;
+    border-right: solid rgb(177, 177, 177) 1px;
+}
+.left main{
+    margin-left: -12px;
+    height: 60px;
+}
+.left main .search-container{
+    background-color: rgb(223, 222, 222);
+    width: 85%;
+    height: 60%;
+    margin: 2% 5%;
+}
+.left main .search-container .search-input{
+    flex: 1;
+    border: none;
+    background-color: inherit;
+    margin-left: 8px;
+}
+.left footer{
+    width: 102%;
+    height: calc(100vh - 160px);
+    overflow-y: scroll;
+    margin-left: -12px;
+}
+.left footer::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  footer::-webkit-scrollbar-track {
+    background: white;        /* color of the tracking area */
+  }
+  
+  footer::-webkit-scrollbar-thumb {
+    background-color: rgb(223, 222, 222);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid white;  /* creates padding around scroll thumb */
+  }
+.just-btn{
+    border: none;
+    background-color: inherit;
+}
+.bg{
+    color: #54656f;
+}
+.right{
+    padding: 0;
+    margin: 0;
+}
+.right main{
+    flex: 1;
+    background-position: center;
+    background-origin: content-box;
+    background-image: url("./peakpx.jpg");
+    background-repeat: no-repeat;
+    margin-left: -14px;
+}
+
+.right .name{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: -4px;
+    color: #111b21;
+}
+.right .desc{
+    font-size: 13px;
+}
+
+.right footer .search-input{
+    border: none;
+    flex: 1;
+    height: 46px;
+    background-color: white;
+    margin-top: 7px;
+    padding-left: 10px;
+}
